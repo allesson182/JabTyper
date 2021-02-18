@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+      width: 980px;
+      font-family: monospace, serif;
+      color: floralwhite;
+      background: linear-gradient(315deg, rgb(87, 127, 207) 0%, rgb(70, 70, 133) 63%);
+      padding: inherit;
+      background-repeat: inherit;
+      background-attachment: fixed;
+      z-index: 10}
+textarea{
+    border-radius: 15px;
+    padding: 8px;
+}
+.titulo{
+    background:none;
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.fundo2{
+    border-radius: 5%;
+    padding: 10px;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.2), rgba(255, 255, 255, 0.2));
+    padding: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    z-index: 11
+    
+    
+}
+.caixa{
+    height: 20px;
+    background-color: rgb(134, 132, 132);
+    border-radius: 15px;
+    position: relative;
+    
+}
+.caixa .progresso{ 
+    position: absolute;
+    height: 100%;
+    background-color: rgb(92, 74, 255);
+    width: 0%;
+    border-radius: 15px;
+}
+@keyframes animacao-progresso {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+.circulo1, .circulo2{
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.1), rgba(255, 255, 255, 0.2));
+    border-radius: 30%;
+    position: absolute;
+    backdrop-filter: blur(20rem);
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(10px);
+}
+.circulo1{
+    top:650px;
+    right:3%;
+}
+.circulo2{
+    top: 10%;
+    left: 3%;
+}
+.botao-reiniciar{
+    position: relative;
+    left:400px;
+
+}
+.contador-tempo, .contador-caracteres{
+    font-size: 30px;
+
+}
+.contador-tempo{
+    text-align: right;
+    padding-right: 19%;
+}
+.contador-caracteres{
+    padding-left: 12%;
+    position:relative;
+    top: 35px;
+}
+#tabela-resultado{
+    width: 100%;
+    
+
+    
+}
+td{
+    --bs-table-bg: none
+}
+.nome label{
+    padding-left: 50%
+}
+.frase{
+    text-align: center;
+    background: linear-gradient(90deg, rgb(7, 151, 180) 0%, rgb(89, 89, 212) 45%, rgb(1, 147, 177) 100%);
+    border-radius: 15px;
+}
+.cred {
+    color: rgb(157, 169, 194);
+    text-align:right;
+}
+#botao-reiniciar{
+    position: relative;
+    right: -16rem;
+    top: 13rem;
+    
+}
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:150px;
+        float: right;
+        position: relative;
+        right: 15%;
+        
+      }
+h3{
+    text-align: center;
+}

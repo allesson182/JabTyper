@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabTyper</title>
+</head>
+
+<body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Já acabou Jéssica???
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="titulo">JabTyper</div>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+    <div class="fundo2">
+
+        <br><br><br>
+        <h3>
+            Digite a frase abaixo o máximo de vezes que conseguir dentro de 15 segundos!
+        </h3>
+        <p class="frase"> // sorteio de frases //</p>
+        <br><br><br>
+        <label for="nome">Nome do Jogador(a)</label>
+        <input type="text" id="nome" placeholder="Digite seu Nome" class="form-control"><br>
+        <button id="botao-reiniciar" class="btn btn-primary btn-lg">Reiniciar</button><br>
+        <textarea id="campo-digitacao" cols="50" rows="5" placeholder="Digite neste campo"></textarea><img
+            src="img/Daco_5396991.png" alt="imagem">
+        <br><br><br>
+        <ul>
+            <li><span id="caracteres-digitados">0</span> Caracteres Digitados</li>
+            <li><span id="palavras-digitadas">0</span> Palavras Digitadas</li>
+            </li>
+        </ul>
+        <div class="contador-caracteres"><span id="tamanho-frase">0</span> Palavras Digitadas</div>
+        <div class="contador-tempo"><span id="tempo">15</span> Segundos Restantes</div>
+        <div class="caixa">
+            <div class="progresso"></div>
+        </div>
+
+        <br><br><br>
+        <h2>Placar</h2>
+        <table class="table table-hover" id="tabela-resultado">
+            <thead>
+                <th>Jogador(a)</th>
+                <th>Pontuação</th>
+                <th>Nª de Palavras Digitadas</th>
+                <th>Nª de Caracteres Digitados</th>
+            <tbody>
+                <tr class="table-secondary">
+                    <td>_</td>
+                    <td>_</td>
+                    <td>_</td>
+                    <td>_</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+
+    </div>
+    <div class="cred">Elaborado por Allesson Queiroz com instruções do professor Josino Neto.</div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
