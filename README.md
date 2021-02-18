@@ -1,2 +1,0 @@
-# JabTyper
-projeto
